@@ -1,0 +1,11 @@
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.necro-carta {
+    height: 372px;
+}

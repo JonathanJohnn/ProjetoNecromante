@@ -1,0 +1,88 @@
+body {
+    display: block;
+    max-width: 55%;
+    margin-left: 20%;
+}
+
+ul {
+    flex-direction: column;
+    text-align-last: center;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0px;
+}
+
+.mesa {
+    display: flex;
+    border-color: darkgray;
+    border-style: groove;
+    border-width: 15px;
+}
+
+.necro-carta {
+    width: 50%;
+}
+
+.necro-carta-mesa {
+    width: 36.55%;
+}
+
+.baralho {
+    width: 50%;
+    border-color: green;
+    border-style: groove;
+    border-width: 15px;
+}
+
+.descarte {
+    width: 50%;
+    border-color: orange;
+    border-style: groove;
+    border-width: 15px;
+    
+}
+
+.baralho-inimigo {
+    width: 50%;
+    border-color: green;
+    border-style: groove;
+    border-width: 15px;
+}
+
+.descarte-inimigo {
+    width: 50%;
+    border-color: orange;
+    border-style: groove;
+    border-width: 15px;
+}
+
+#mao-inimiga {
+    border-color: red;
+    border-style: groove;
+    border-width: 15px;
+    align-self: center;
+}
+
+#mesa-inimiga {
+    border-color: purple;
+    border-style: groove;
+    border-width: 15px;
+}
+
+#mesa-jogador {
+    border-color: purple;
+    border-style: groove;
+    border-width: 15px;
+}
+
+#mao-jogador {
+    border-color: blue;
+    border-style: groove;
+    border-width: 15px;
+    align-self: center;
+}
