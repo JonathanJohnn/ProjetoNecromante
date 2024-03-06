@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../imagens/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+#corpo {
+    padding: 20px;
+}
+
+#mensagem {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#regras {
+    margin-top: 20px;
+}
