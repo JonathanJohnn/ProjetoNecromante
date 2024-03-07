@@ -5,6 +5,8 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
+    height: 100vh;
+    background-color: #000000;
 }
 
 header {
@@ -13,14 +15,99 @@ header {
 }
 
 #corpo {
-    padding: 20px;
+    padding: 124px;
 }
 
 #mensagem {
     text-align: center;
     margin-bottom: 80px;
+    font-family: 'Play', sans-serif;
+
 }
 
 #regras {
     margin-top: 20px;
+    font-family: 'Play', sans-serif;
+
+}
+     
+* {
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+button, button:before {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+	width: 110px;
+	height: 40px;
+	cursor: pointer;
+	font-family: 'Play', sans-serif;
+	font-size: 20px;
+	color: white;
+	border: none;
+	border-radius: 25px;
+	background-image: url("https://assets.codepen.io/3305358/hazard-stripes-wallpaper.jpg");
+	background-size: 150%;
+	background-position: left;
+	transition: 1s;
+}
+
+button:before {
+	width: 150px;
+	height: 50px;
+	content: 'Baralho';
+	background: rgba(0,0,0,0.6);
+	border-radius: 25px;
+	position: absolute;
+	transition: 500ms;
+}
+
+button:hover:before {
+	background: rgba(0,0,0,0);
+	text-shadow: 1px 1px 1px black;
+}
+
+button:hover {
+	background-position: center;
+	box-shadow: 0px 0px 10px rgba(232, 218, 26, 0.5);
+}
+
+button:focus {
+	outline: none;
+}
+
+.botãobaralho,
+.botãocreditos {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin-right: 10px; /* Adiciona margem à direita para separar os botões */
+    border-radius: 30px;
+    font-family: 'Play', sans-serif;
+
+}
+
+
+.botãobaralho:hover,
+.botãocreditos:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para o contêiner dos botões */
+.botoes-container {
+    display: flex; /* Exibe os botões lado a lado */
+    align-items: center; /* Alinha os botões verticalmente */
+    height: 80px;
+}
+
+/* Estilos para os botões */
+.noselect {
+    margin-right: 30px; /* Adiciona margem à direita para separar os botões */
 }
